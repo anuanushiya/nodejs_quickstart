@@ -1,6 +1,5 @@
 //fragile mysql implementation
 var mysql  = require('mysql');
-var bcrypt = require('bcrypt');
 
 var connection= mysql.createConnection({
   host     : "",
