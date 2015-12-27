@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "express": "*",
+    "consolidate": "*",
+    "swig": "*",
+    "mysql": "*"
+  },
+  "devDependencies": {
+    "gulp":"*",
+    "gulp-cssmin":"*",
+    "gulp-sass":"*",
+    "gulp-autoprefixer":"*",
+    "gulp-rename":"*",
+    "gulp-notify":"*"
+  }
+}

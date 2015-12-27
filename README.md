@@ -10,7 +10,7 @@ Simple quickstart for `Express` based Node.js applications featuring:
 + automated Server reload
 
 
-## Gettings Started
+## Getting Started
 ```
 npm update
 npm start //alias for gulp
@@ -20,7 +20,7 @@ npm start //alias for gulp
 
 #### JS
 + `app.js` application entry with Express configuration
-+ `controllers/index.js` combine all controllers an manage routes
++ `controllers/index.js` combines all controllers an manage routes
 + `controllers/*.js` single routing component
 + `helpers/*.js` global helper files (e.g. `db.js`)
 
