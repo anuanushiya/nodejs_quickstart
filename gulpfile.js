@@ -11,6 +11,7 @@ var notify = require("gulp-notify");
 var css_input = "./public/*";
 var css_output = './static/';
 var js_input = ['app.js','./controllers/*','./helpers/*'];
+var html_input = ['./templates/*'];
 
 gulp.task('default', ['sass','server','watch_css','watch_js']);
 
@@ -58,4 +59,8 @@ gulp.task('watch_css', function() {
 gulp.task('watch_js', function(){
     return gulp
     .watch(js_input, ['server'])
+})
+gulp.task('watch_html', function(){
+    return gulp
+    .watch(html_input, ['server'])
 })
